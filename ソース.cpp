@@ -47,7 +47,7 @@ int requestDay(int year, int month, int day) {
 
 	//ˆÈ‰ºŒ‚Ìİ’è
 	if ((1 <= month) && (month <= 12)) {
-		E1 = 0;
+		
 	}
 	else {
 		E1 = -1;
@@ -56,7 +56,7 @@ int requestDay(int year, int month, int day) {
 	//ˆÈ‰º“ú‚É‚¿‚Ìİ’è
 	if ((month == 1) | (month == 3) | (month == 5) | (month == 7) | (month == 8) | (month == 10) | (month == 12)) {
 		if ((1 <= day) && (day <= 31)) {
-			E1 = 0;
+
 		}
 		else {
 			E1 = -1;
@@ -65,7 +65,7 @@ int requestDay(int year, int month, int day) {
 
 	else if (month == 2) {
 		if ((1 <= day) && (day <= 29)) {
-			E1 = 0;
+
 		}
 		else {
 			E1 = -1;
@@ -73,7 +73,7 @@ int requestDay(int year, int month, int day) {
 	}
 	else {
 		if ((1 <= day) && (day <= 30)) {
-			E1 = 0;
+
 		}
 		else {
 			E1 = -1;
